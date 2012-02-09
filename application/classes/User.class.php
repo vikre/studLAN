@@ -124,24 +124,16 @@ class User {
 		return $this->seater;
 	}
 
-	public function set_seater($seater) {
-		if ($seater instanceof User) {
+	public function set_seater(User $seater) {
 			$this->seater = $seater;
-			return;
-		} 
-		return null;
 	}
 
 	public function get_organization() {
 		return $this->organization;
 	}
 
-	public function set_organization($organization) {
-		if ($organization instanceof Organization) {
+	public function set_organization(Organization $organization) {
 			$this->organization = $organization;
-			return;
-		}
-		return null;
 	}
 }
 
