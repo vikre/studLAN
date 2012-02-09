@@ -1,43 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-    <meta name="Description" content="Basic Gray">
-    <meta name="author" content="Linn Vikre">
-    <meta name="Copyright" content="Copyright (c) Linn Vikre, all rights reserved.">
-	<link rel="stylesheet1" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
-    <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>/stylesheet/default.css">
-	<title>studLAN </title>
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
-    <script type="text/javascript" src="javascripts/behavior.js"></script>
-    <!--[if IE]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-</head>
-<body>
-	<header id="mast">
-    	<img src="/images/STUDLAN.png"> 
-		<h1>studLAN<h1>
-    </header>
-    <nav id="global">
-    	<ul>
-        	<li><a class="selected" href="<?=base_url()?>">Hjem</a></li>
-            <li><a href="<?=base_url() . 'index.php/signup'?>">Påmeldinger</a></li>
-            <li><a href="<?=base_url() . 'index.php/compo'?>">Compoinformasjon</a></li>
-            <li><a href="<?=base_url() . 'index.php/about'?>">Om oss</a></li>
-        </ul>
-    </nav>
-    <section id="intro">
-    	<header>
-    		<h2>studLAN</h2>
-        </header>
-        <p>16. mars - 18. mars</p>
-        <a href="/">Les mer</a>
-        <div id="photo">
-            	<!--<h3>Photo</h3>-->
-				<img src="/images/studlansoppen.png" alt ="master" />
-        </div>
-    </section>
+<?php $this->load->view('globals/header');?>
     <div id="main" class="clear">
         <section id="articles">
             <article class="blogPost">
