@@ -193,7 +193,7 @@ nav#global ul li a.selected:hover {
 
 #intro {
 	background-color: #ccc;
-	margin-top: 130px;
+	margin-top: 100px;
 	padding: 40px;
 	-moz-border-radius: 15px;
 	-webkit-border-radius: 15px;
@@ -231,8 +231,6 @@ nav#global ul li a.selected:hover {
 	background-color: #fff;
 	float: right;
 	margin-top: -170px;
-	/*padding-top: 10px 10px 10px 10px;*/
-	
 	-moz-box-shadow: 0 1px 10px #333;
 	-webkit-box-shadow: 0  1px 10px #333;
 	-moz-border-radius: 4px;
@@ -246,11 +244,9 @@ nav#global ul li a.selected:hover {
 	margin: 10px auto 0 auto;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
-	border: 1px solid Black;
-	/*width: 380px;
-	height: 260px;*/
+	width: 380px;
+	height: 260px;
 	text-align: center;
-	float: right;
 }
 
 #photo div h3 {

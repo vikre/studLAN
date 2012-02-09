@@ -15,7 +15,7 @@ class User {
 	private $seater;
 	private $organization;
 
-	public function __construct($email, $firsname, $lastname, $phonenumber, $birthdate, $postalcode, $address, $username, $password, $salt, $seater, $organization = null, $id = 0) {
+	public function __construct($email, $firsnamt, $lastname, $phonenumber, $birthdate, $postalcode, $address, $username, $password, $salt, $seater, $organization = null, $id = 0) {
 		
 		$this->id = $id;
 		$this->email = $email;
