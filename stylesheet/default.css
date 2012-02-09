@@ -235,13 +235,13 @@ nav#global ul li a.selected:hover {
 #intro #photo {
 	background-color: #fff;
 	float: right;
-	margin-top: -170px;
+	margin-top: -195px;
 	-moz-box-shadow: 0 1px 10px #333;
 	-webkit-box-shadow: 0  1px 10px #333;
 	-moz-border-radius: 4px;
 	-webkit-border-radius: 4px;
-	width: 400px;
-	height: 300px;
+	width: 340px;
+	height: 255px;
 }
 
 #photo {
@@ -249,13 +249,13 @@ nav#global ul li a.selected:hover {
 	margin: 10px auto 0 auto;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
-	width: 380px;
-	height: 260px;
+	width: 304px;
+	height: 208px;
 	text-align: center;
 }
 
 #photo img {
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 #photo div h3 {

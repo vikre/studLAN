@@ -7,6 +7,7 @@
     <meta name="Copyright" content="Copyright (c) Linn Vikre, all rights reserved.">
 	<title>studLAN</title>
     <link rel="stylesheet" href="<?=base_url()?>stylesheet/default.css">
+    <link rel="icon" href="<?=base_url()?>media/images/favicon.ico" /> 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
     <script type="text/javascript" src="javascripts/behavior.js"></script>
     <!--[if IE]>
@@ -36,6 +37,6 @@
         <!-- <a href="<?=base_url() . 'signup'?>">Påmelding</a> -->
         <div id="photo">
             	<!--<h3>Photo</h3>-->
-				<img src="<?=base_url()?>media/images/sopp.png" alt ="master" />
+				<img src="<?=base_url()?>media/images/intro_mushroom.png" alt ="master" />
         </div>
     </section>
