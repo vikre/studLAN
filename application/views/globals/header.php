@@ -16,7 +16,7 @@
 
 <body>
 	<header id="mast">
-    	<h1>studLAN</h1>
+        <img src="<?=base_url()?>media/images/studlanlogo.png" alt ="master" />
     </header>
     <nav id="global">
     <!-- Fix selected on active page. -->

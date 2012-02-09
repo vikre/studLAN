@@ -33,6 +33,11 @@ class Welcome extends CI_Controller {
 	public function about() {
 		$this->load->view('about');
 	}
+
+	public function formtest()
+	{
+		$this->load->view('forms/signup_form');
+	}
 }
 
 /* End of file welcome.php */

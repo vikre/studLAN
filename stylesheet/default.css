@@ -140,6 +140,11 @@ a:focus {
 	outline: 1px dotted;
 }
 
+#mast img {
+	margin-top: 20px;
+	margin-left: 40px;
+}
+
 #mast h1 {
 	padding: 30px 0 20px 40px;
 }
