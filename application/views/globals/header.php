@@ -33,7 +33,7 @@
         </header>
         <p>16. mars - 18. mars</p>
         <p>P15 @ NTNU Gløshaugen</p>
-        <a href="<?base_url()?>signup">Påmelding</a>
+        <!-- <a href="<?=base_url() . 'signup'?>">Påmelding</a> -->
         <div id="photo">
             	<!--<h3>Photo</h3>-->
 				<img src="<?=base_url()?>media/images/sopp.png" alt ="master" />
