@@ -9,22 +9,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </article>
         </section>
-        <aside>
-            <section>
-                <header>
-                    <h3>Categories</h3>
-                </header>
-                <nav id="categories">
-                    <ul>
-                       		<p> Outland</p>
-							<p> Amentio</p>
-							<p> Fretex</p>
-							<p> Vektor</p>
-							<p> Online</p>
-                    </ul>
-                </nav>
-            </section>
-        </aside>
+        <?php $this->load->view('globals/sponsors');?>
     </div>
     <footer>
     	<div class="clear">

@@ -244,7 +244,7 @@ nav#global ul li a.selected:hover {
 	height: 300px;
 }
 
-#photo div {
+#photo {
 	background-color: #333;
 	margin: 10px auto 0 auto;
 	-moz-border-radius: 2px;
@@ -252,6 +252,10 @@ nav#global ul li a.selected:hover {
 	width: 380px;
 	height: 260px;
 	text-align: center;
+}
+
+#photo img {
+	margin-top: 20px;
 }
 
 #photo div h3 {
