@@ -18,6 +18,7 @@
                		 <h3>Om oss</h3>
 	                </header>
 	                <p>studLAN er en interessegruppe drevet av studenter tilhørende linjeforeningene Online og Nabla. Vi arrangerer to LAN på NTNU i løpet av et år. </p>
+                    <p> Design av: Linn Vikre</p>
             </section>
  
             <section>

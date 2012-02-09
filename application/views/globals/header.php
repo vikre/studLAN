@@ -22,7 +22,7 @@
     <!-- Fix selected on active page. -->
     	<ul>
         	<li><a href="<?=base_url()?>">Hjem</a></li>
-            <li><a href="<?=base_url() . 'index.php/signup'?>">Påmeldinger</a></li>
+            <li><a href="<?=base_url() . 'index.php/signup'?>">Påmelding</a></li>
             <li><a href="<?=base_url() . 'index.php/compo'?>">Compoinformasjon</a></li>
             <li><a href="<?=base_url() . 'index.php/about'?>">Om oss</a></li>
         </ul>
@@ -32,7 +32,8 @@
     		<h2>studLAN</h2>
         </header>
         <p>16. mars - 18. mars</p>
-        <a href="/">Les mer</a>
+        <p>P15 @ NTNU Gløshaugen</p>
+        <a href="<?base_url()?>signup">Påmelding</a>
         <div id="photo">
             	<!--<h3>Photo</h3>-->
 				<img src="<?=base_url()?>media/images/sopp.png" alt ="master" />
