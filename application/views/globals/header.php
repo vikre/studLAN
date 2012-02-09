@@ -5,7 +5,7 @@
     <meta name="Description" content="Basic Gray">
     <meta name="author" content="Linn Vikre">
     <meta name="Copyright" content="Copyright (c) Linn Vikre, all rights reserved.">
-	<title>The sky is the limit</title>
+	<title>studLAN</title>
     <link rel="stylesheet" href="<?=base_url()?>stylesheet/default.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
     <script type="text/javascript" src="javascripts/behavior.js"></script>
@@ -16,7 +16,7 @@
 
 <body>
 	<header id="mast">
-    	<h1>The sky is the limit</h1>
+    	<h1>studLAN</h1>
     </header>
     <nav id="global">
     <!-- Fix selected on active page. -->
@@ -35,6 +35,6 @@
         <a href="/">Les mer</a>
         <div id="photo">
             	<!--<h3>Photo</h3>-->
-				<img src="<?=base_url()?>media/images/studlansoppen.png" alt ="master" />
+				<img src="<?=base_url()?>media/images/sopp.png" alt ="master" />
         </div>
     </section>
