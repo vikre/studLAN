@@ -14,10 +14,10 @@
 		                </header>
 		                <nav id="siteMap">
 		                    <ul>
-		                        <li><a href="index.html">Hjem</a></li>
-		                        <li><a href="about.html">Påmelding</a></li>
-		                        <li><a href="services.html">Compoinformasjon</a></li>
-		                        <li><a href="contact.html">Om oss</a></li>
+		                        <li><a href="<?=base_url()?>">Hjem</a></li>
+		                        <li><a href="<?=base_url()?>signup">Påmelding</a></li>
+		                        <li><a href="<?=base_url()?>compo">Compoinformasjon</a></li>
+		                        <li><a href="<?=base_url()?>about">Om oss</a></li>
                     </ul>
                 </nav>
             </section>

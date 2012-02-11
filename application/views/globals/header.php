@@ -6,8 +6,8 @@
     <meta name="author" content="Linn Vikre">
     <meta name="Copyright" content="Copyright (c) Linn Vikre, all rights reserved.">
 	<title>studLAN</title>
-    <link rel="stylesheet" href="<?=base_url()?>stylesheet/default.css">
-    <link rel="icon" href="<?=base_url()?>media/images/favicon.ico" /> 
+    <link rel="stylesheet" href="<?=site_url()?>stylesheet/default.css">
+    <link rel="icon" href="<?=site_url()?>media/images/favicon.ico" /> 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
     <script type="text/javascript" src="javascripts/behavior.js"></script>
     <!--[if IE]>
@@ -23,9 +23,9 @@
     <!-- Fix selected on active page. -->
     	<ul>
         	<li><a href="<?=base_url()?>">Hjem</a></li>
-            <li><a href="<?=base_url() . 'index.php/signup'?>">Påmelding</a></li>
-            <li><a href="<?=base_url() . 'index.php/compo'?>">Compoinformasjon</a></li>
-            <li><a href="<?=base_url() . 'index.php/about'?>">Om oss</a></li>
+            <li><a href="<?=base_url() . 'signup'?>">Påmelding</a></li>
+            <li><a href="<?=base_url() . 'compo'?>">Compoinformasjon</a></li>
+            <li><a href="<?=base_url() . 'about'?>">Om oss</a></li>
         </ul>
     </nav>
     <section id="intro">

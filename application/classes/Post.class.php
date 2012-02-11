@@ -5,10 +5,10 @@ class Post {
 	private $title;
 	private $date;
 	private $text;
-	private $user_id;
-	private $category_id;
+	private $user
+	private $category;
 
-	public function __construct($id, $title, $date, $text, $user_id, $category_id) {
+	public function __construct($id, $title, $date, $text, user, $category) {
 
 		$this->id = $id;
 		$this->title = $title;
@@ -49,14 +49,14 @@ class Post {
 	public function get_user_id() {
 		return $this->user_id;
 	}
-	public function set_user_id($user_id) {
-		$this->user_id = $user_id;
+	public function set_user_id(User $user) {
+		$this->user = $user;
 	}
 	
 	public function get_category_id() {
 		return $this->category_id;
 	}
-	public function set_category_id($category_id) {
-		$this->category_id = $category_id;
+	public function set_category_id(Category $category) {
+		$this->category = $category;
 	}
 }
